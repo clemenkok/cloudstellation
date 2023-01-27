@@ -14,6 +14,8 @@ Each project in Cloudstellation will include an architecture diagram and a quick
 
 ## Project I: Cloud Resume Challenge
 
+![cloudresume_one](https://user-images.githubusercontent.com/68755138/214983805-18d28316-e6b5-4f68-a438-2a2b65a1cb5f.png)
+
 The objective of this project is to build a resume website using several AWS services. It is based off of the [challenge](https://cloudresumechallenge.dev/) created by Forrest Brazeal.  
 
 The challenge can be broken down into multiple stages.  
