@@ -32,4 +32,11 @@ The challenge can be broken down into multiple stages.
 > Stage 4: Infrastructure as Code and CI/CD
 > Skills: Terraform, GitHub Actions, cloud secrets management  
 
-Using this challenge as a guide, I created my own [website](clemenkok.com) where I wrote about my portfolio and past experiences.
+Using this challenge as a guide, I created my own [website](clemenkok.com) where I wrote about my portfolio and past experiences.  
+
+Some key things that I learnt while building this project:  
+
+- When using Amazon-generated SSL Certificates, infrastructure must be deployed on ```us-east-1 (N. Virginia)``` - this is an inherent limitation of Amazon-generated SSL Certificates. As I had initially used another zone, I had to restart my project on ```us-east-1```.  
+
+- I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
+
