@@ -10,7 +10,9 @@
 > 
 **- All Things Distributed**
 
-Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture.
+Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture.  
+
+Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) Certification and was looking around for projects to further my practical skills before my internship, as well as to apply for research computing positions. Some of these projects could be useful as well for someone starting out in AWS, so I might as well document it.  
 
 ## Project I: Cloud Resume Challenge
 
