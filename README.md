@@ -1,4 +1,4 @@
-# Cloudstellation: A Repository of AWS Projects, Architectures and Code
+# Cloudstellation: A Repository of AWS Projects
 
 > What will 2023 bring?
 > 
@@ -8,4 +8,24 @@
 > Prediction 4: The upcoming supply chain transformation  
 > Prediction 5: Custom silicon goes mainstream  
 > 
-> **- All Things Distributed**
+**- All Things Distributed**
+
+## Project I: Cloud Resume Challenge
+
+The objective of this project is to build a resume website using several AWS services. It is based off of the ![challenge](https://cloudresumechallenge.dev/) created by Forrest Brazeal.  
+
+The challenge can be broken down into multiple stages.  
+
+> Stage 1: Cloud Website
+> Skills: HTML/CSS, Git, cloud storage, CDN, DNS
+> 
+> Stage 2: Serverless API
+> Skills: Cloud compute, NoSQL database, Python
+> 
+> Stage 3: Front End / Back End Integration
+> Skills: Javascript, cloud monitoring, end-to-end testing
+> 
+> Stage 4: Infrastructure as Code and CI/CD
+> Skills: Terraform, GitHub Actions, cloud secrets management
+
+Using this challenge as a guide, I created my own ![website](clemenkok.com) where I wrote about my portfolio and past experiences.
