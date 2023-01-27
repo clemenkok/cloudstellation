@@ -43,3 +43,10 @@ Some key things that I learnt while building this project:
 - I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
 <br/><br/>
 ## Project II: Learn Cantrill Lab: Video on Demand
+
+![estets drawio](https://user-images.githubusercontent.com/68755138/215002848-21961626-7db1-48f4-9d44-26d464d61344.png)
+
+The objective of this project is to create a pipeline for a .mp4 video file to be converted into HD and SD and then output it onto a CloudFront Distribution.  
+
+It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs).
+
