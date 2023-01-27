@@ -51,7 +51,7 @@ The objective of this project is to create a pipeline for a .mp4 video file to b
 It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs). It is a relatively simple project that is a good introduction to AWS.  
 <br/><br/>
 ## Project III: Learn Cantrill Lab: Serverless Reminder Application
-### S3, SES, API Gateway, Lambda, Step Functionso
+### S3, SES, API Gateway, Lambda, Step Functions
 The architecture for this project can be found [here](https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-serverless-pet-cuddle-o-tron).  
 
 Some things that I learnt from this project:  
