@@ -15,7 +15,7 @@ Each project in Cloudstellation will include an architecture diagram and a quick
 Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) Certification and was looking around for projects to further my practical skills before my internship, as well as to apply for research computing positions. Some of these projects could be useful as well for someone starting out in AWS, so I might as well document it.  
 <br/><br/>
 ## Project I: Cloud Resume Challenge
-
+### S3, Route53, CloudFront, SAM, DynamoDB, Lambda, API Gateway
 ![cloudresume_one](https://user-images.githubusercontent.com/68755138/214983805-18d28316-e6b5-4f68-a438-2a2b65a1cb5f.png)
 
 The objective of this project is to build a resume website using several AWS services. It is based off of the [challenge](https://cloudresumechallenge.dev/) created by Forrest Brazeal.  
@@ -43,10 +43,18 @@ Some key things that I learnt while building this project:
 - I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
 <br/><br/>
 ## Project II: Learn Cantrill Lab: Video on Demand
-
+### S3, Lambda, API Gateway, MediaConvert, CloudFront
 ![estets drawio](https://user-images.githubusercontent.com/68755138/215002848-21961626-7db1-48f4-9d44-26d464d61344.png)
 
 The objective of this project is to create a pipeline for a .mp4 video file to be converted into HD and SD and then output it onto a CloudFront Distribution.  
 
-It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs).
+It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs). It is a relatively simple project that is a good introduction to AWS.  
+<br/><br/>
+## Project III: Learn Cantrill Lab: Serverless Reminder Application
+### S3, SES, API Gateway, Lambda, Step Functionso
+The architecture for this project can be found [here](https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-serverless-pet-cuddle-o-tron).  
+
+Some things that I learnt from this project:  
+- Creating a [State Machine](https://docs.aws.amazon.com/step-functions/latest/dg/amazon-states-language-state-machine-structure.html) in AWS using Step Functions. This is a pretty neat feature. In the project, you create a state machine that includes a timer state, which delays the trigger of the email Lambda function until the time specified has passed and then send the email. This was my first time using Step Functions and served as a good introduction.
+- SES. Emailing a user is, as the name implies, simple.
 
