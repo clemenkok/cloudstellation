@@ -10,7 +10,7 @@
 > 
 **- All Things Distributed**
 
-Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture.  
+Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture. Cloudstellation will contain projects ranging across the spectrum of applications, including networking (VPC peering, DNS configuration), machine learning (Rekognition + ECR, MLOps Pipeline), serverless (lambda + api gateway).
 
 Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) Certification and was looking around for projects to further my practical skills before my internship, as well as to apply for research computing positions. Some of these projects could be useful as well for someone starting out in AWS, so I might as well document it.  
 <br/><br/>
