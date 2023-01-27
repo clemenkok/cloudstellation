@@ -10,9 +10,11 @@
 > 
 **- All Things Distributed**
 
+Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture.
+
 ## Project I: Cloud Resume Challenge
 
-The objective of this project is to build a resume website using several AWS services. It is based off of the ![challenge](https://cloudresumechallenge.dev/) created by Forrest Brazeal.  
+The objective of this project is to build a resume website using several AWS services. It is based off of the [challenge](https://cloudresumechallenge.dev/) created by Forrest Brazeal.  
 
 The challenge can be broken down into multiple stages.  
 
@@ -26,6 +28,6 @@ The challenge can be broken down into multiple stages.
 > Skills: Javascript, cloud monitoring, end-to-end testing
 > 
 > Stage 4: Infrastructure as Code and CI/CD
-> Skills: Terraform, GitHub Actions, cloud secrets management
+> Skills: Terraform, GitHub Actions, cloud secrets management  
 
-Using this challenge as a guide, I created my own ![website](clemenkok.com) where I wrote about my portfolio and past experiences.
+Using this challenge as a guide, I created my own [website](clemenkok.com) where I wrote about my portfolio and past experiences.
