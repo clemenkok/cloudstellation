@@ -13,7 +13,7 @@
 Each project in Cloudstellation will include an architecture diagram and a quick overview of the steps needed to build out the architecture.  
 
 Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) Certification and was looking around for projects to further my practical skills before my internship, as well as to apply for research computing positions. Some of these projects could be useful as well for someone starting out in AWS, so I might as well document it.  
-
+<br/><br/>
 ## Project I: Cloud Resume Challenge
 
 ![cloudresume_one](https://user-images.githubusercontent.com/68755138/214983805-18d28316-e6b5-4f68-a438-2a2b65a1cb5f.png)
@@ -41,4 +41,5 @@ Some key things that I learnt while building this project:
 - When using Amazon-generated SSL Certificates, infrastructure must be deployed on ```us-east-1 (N. Virginia)``` - this is an inherent limitation of Amazon-generated SSL Certificates. As I had initially used another zone, I had to restart my project on ```us-east-1```.  
 
 - I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
-
+<br/><br/>
+## Project II: Learn Cantrill Lab: Video on Demand
