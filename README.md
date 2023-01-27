@@ -57,4 +57,13 @@ The architecture for this project can be found [here](https://github.com/acantri
 Some things that I learnt from this project:  
 - Creating a [State Machine](https://docs.aws.amazon.com/step-functions/latest/dg/amazon-states-language-state-machine-structure.html) in AWS using Step Functions. This is a pretty neat feature. In the project, you create a state machine that includes a timer state, which delays the trigger of the email Lambda function until the time specified has passed and then send the email. This was my first time using Step Functions and served as a good introduction.
 - SES. Emailing a user is, as the name implies, simple.
+<br/><br/>
+## Project IV: Learn Cantrill Lab: Cat/Dog Recognition App
+### Rekognition, ECS, ECR
+![rekk drawio](https://user-images.githubusercontent.com/68755138/215192282-a539a7c8-53e8-4bd6-8bf6-4a0006e6895c.png)
+
+The objective of this project is to build an application that can distinguish between a dog and a cat.  
+
+The workflow is as such: A user accesses the public IP exposed by ECS and uploads an image containing a cat or dog onto the platform. ECS is running a Docker image that we upload on ECR, which contains a Flask application that can call Rekognition to perform inference using our trained model. It then outputs the result onto the screen.
+
 
