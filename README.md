@@ -65,5 +65,9 @@ Some things that I learnt from this project:
 The objective of this project is to build an application that can distinguish between a dog and a cat.  
 
 The workflow is as such: A user accesses the public IP exposed by ECS and uploads an image containing a cat or dog onto the platform. ECS is running a Docker image that we upload on ECR, which contains a Flask application that can call Rekognition to perform inference using our trained model. It then outputs the result onto the screen.
+<br/><br/>
+## Project IV: Docker-based Flask App with Aurora Serverless
+### RDS, Secrets Manager, Docker
 
+The objective of this project is to create a Docker-based application that interacts with an Aurora serverless instance. Using Flask, we set up some APIs which then can be used to get data from our Aurora Serverless Database. 
 
