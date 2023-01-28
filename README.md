@@ -42,7 +42,7 @@ Some key things that I learnt while building this project:
 
 - I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
 
-- CI/CD Notes (to be added)
+- CI/CD. Stages: (1) Testing Infrastructure (functions that you have written to get/put data in DynamoDB), (2) On successful test build and deploy infrastructure, (3) afterwards deploy the site (changes to site i.e. website code).
 
 <br/><br/>
 ## Project II: Learn Cantrill Lab: Video on Demand
