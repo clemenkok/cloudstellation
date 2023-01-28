@@ -49,9 +49,9 @@ Some key things that I learnt while building this project:
 ### S3, Lambda, API Gateway, MediaConvert, CloudFront
 ![estets drawio](https://user-images.githubusercontent.com/68755138/215002848-21961626-7db1-48f4-9d44-26d464d61344.png)
 
-The objective of this project is to create a pipeline for a .mp4 video file to be converted into HD and SD and then output it onto a CloudFront Distribution.  
+The objective of this project is to create a pipeline for a .mp4 video file to be converted into HD and SD and then output it onto a CloudFront Distribution. 
 
-It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs). It is a relatively simple project that is a good introduction to AWS.  
+It is based off of [Adrian Cantrill's Lab Projects](https://github.com/acantril/learn-cantrill-io-labs). It is a relatively simple project that is a good introduction to AWS. I have completed a few more of Cantrill's labs below - one gripe was that it was mostly console-based so I lacked familiarity with IaC that was used in Project I. 
 <br/><br/>
 ## Project III: Learn Cantrill Lab: Serverless Reminder Application
 ### S3, SES, API Gateway, Lambda, Step Functions
@@ -72,21 +72,22 @@ The workflow is as such: A user accesses the public IP exposed by ECS and upload
 ## Project V: Docker-based Flask App with Aurora Serverless
 ### RDS, Secrets Manager, Docker
 
-The objective of this project is to create a Docker-based application that interacts with an Aurora serverless instance. Using Flask, we set up some APIs which then can be used to get data from our Aurora Serverless Database.  
+The objective of this project is to create a Docker-based application that interacts with an Aurora serverless instance. Using Flask, we set up some APIs which then can be used to get data from our Aurora Serverless Database. It is from this [tutorial](https://www.youtube.com/watch?v=NM4Vd7fpZWk&t=10s).  
 
 Note: Aurora Serverless V2 has no Data API, which is needed for this project.
 <br/><br/>
 ## Project VI: Web Scraper with Boto3 and SNS
 ### SNS
-This project involves scraping Bestbuy's website using Boto3. If the quantity of the item exceeds a certain amount, the scraper script publishes to a SNS topic, which then sends an email to a user that their item is available.
+This project involves scraping Bestbuy's website using Boto3. If the quantity of the item exceeds a certain amount, the scraper script publishes to a SNS topic, which then sends an email to a user that their item is available. It is from this [tutorial](https://www.youtube.com/watch?v=6ixBJZ2vnYk&t=419s).
 <br/><br/>
 ## Project VII: StockWatch
 ### DynamoDB, Lambda, SNS, CloudWatch, AppConfig
 
 ![stox drawio (1)](https://user-images.githubusercontent.com/68755138/215293978-d68cfa14-c69c-4b7b-99b1-9f409bd54468.png)
 
-What I learnt:
+This project is from [Be a Better Dev](https://www.youtube.com/watch?v=XoMSzGybxZg&t=311s). He did not upload a part 2 so I prepared the code and infrastructure unguided.
 
+What I learnt:
 - When writing my ```.yaml``` file to describe my infrastructure, I learnt about intrinsic functions and how we ahve to use intrinsic functions to pass certain data around (as ARNs have not been generated). 
 - Importance of iterative development: develop one stage at a time. I eventually decided to try a simpler project first (see below) before coming back to this. (Also, I should label my architecture...)
 <br/><br/>
