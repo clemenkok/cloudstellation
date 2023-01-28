@@ -76,6 +76,9 @@ The objective of this project is to create a Docker-based application that inter
 
 Note: Aurora Serverless V2 has no Data API, which is needed for this project.
 <br/><br/>
+## Project VI: Web Scraper with Boto3 and SNS
+This project involves scraping Bestbuy's website using Boto3. If the quantity of the item exceeds a certain amount, the scraper script publishes to a SNS topic, which then sends an email to a user that their item is available.
+<br/><br/>
 ## Project VI: StockWatch
 ### DynamoDB, Lambda, SNS, CloudWatch, AppConfig
 
