@@ -83,6 +83,7 @@ This project involves scraping Bestbuy's website using Boto3. If the quantity of
 ### DynamoDB, Lambda, SNS, CloudWatch, AppConfig
 
 What I learnt:
+![stox drawio (1)](https://user-images.githubusercontent.com/68755138/215293978-d68cfa14-c69c-4b7b-99b1-9f409bd54468.png)
 
 - When writing my ```.yaml``` file to describe my infrastructure, I learnt about intrinsic functions and how we ahve to use intrinsic functions to pass certain data around (as ARNs have not been generated). 
-- Importance of iterative development: develop one stage at a time.
+- Importance of iterative development: develop one stage at a time. I eventually switched back to using the console.
