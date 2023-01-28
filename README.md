@@ -82,4 +82,7 @@ This project involves scraping Bestbuy's website using Boto3. If the quantity of
 ## Project VII: StockWatch
 ### DynamoDB, Lambda, SNS, CloudWatch, AppConfig
 
-<< To be added >>
+What I learnt:
+
+- When writing my ```.yaml``` file to describe my infrastructure, I learnt about intrinsic functions and how we ahve to use intrinsic functions to pass certain data around (as ARNs have not been generated). 
+- Importance of iterative development: develop one stage at a time.
