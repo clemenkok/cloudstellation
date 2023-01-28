@@ -88,4 +88,4 @@ This project involves scraping Bestbuy's website using Boto3. If the quantity of
 What I learnt:
 
 - When writing my ```.yaml``` file to describe my infrastructure, I learnt about intrinsic functions and how we ahve to use intrinsic functions to pass certain data around (as ARNs have not been generated). 
-- Importance of iterative development: develop one stage at a time. I eventually switched back to using the console. (Also, I should label my architecture...)
+- Importance of iterative development: develop one stage at a time. I eventually decided to try a simpler project first (see below) before coming back to this. (Also, I should label my architecture...)
