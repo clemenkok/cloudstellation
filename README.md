@@ -69,5 +69,6 @@ The workflow is as such: A user accesses the public IP exposed by ECS and upload
 ## Project IV: Docker-based Flask App with Aurora Serverless
 ### RDS, Secrets Manager, Docker
 
-The objective of this project is to create a Docker-based application that interacts with an Aurora serverless instance. Using Flask, we set up some APIs which then can be used to get data from our Aurora Serverless Database. 
+The objective of this project is to create a Docker-based application that interacts with an Aurora serverless instance. Using Flask, we set up some APIs which then can be used to get data from our Aurora Serverless Database.  
 
+Note: Aurora Serverless V2 has no Data API, which is needed for this project.
