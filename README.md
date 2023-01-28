@@ -41,6 +41,9 @@ Some key things that I learnt while building this project:
 - When using Amazon-generated SSL Certificates, infrastructure must be deployed on ```us-east-1 (N. Virginia)``` - this is an inherent limitation of Amazon-generated SSL Certificates. As I had initially used another zone, I had to restart my project on ```us-east-1```.  
 
 - I used the AWS SAM CLI for this project, allowing me to deploy my Infrasturucture as Code. This was extremely useful and efficient and I no longer had to click around the console. AWS SAM is a wrapper around CloudFormation, AWS' IaC service.  
+
+- CI/CD Notes (to be added)
+
 <br/><br/>
 ## Project II: Learn Cantrill Lab: Video on Demand
 ### S3, Lambda, API Gateway, MediaConvert, CloudFront
