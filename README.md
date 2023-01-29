@@ -94,7 +94,8 @@ What I learnt:
 ## Project VIII: A Cloud Guru Challenge - Covid 19 ETL
 ### Serverless Framework, EventBridge, Lambda, DynamoDB, S3, SNS, Athena, QuickSight
 ![covid drawio (1)](https://user-images.githubusercontent.com/68755138/215298522-7be255fc-c3b3-4893-8160-66ef8200be58.png)
-(Architecture Diagram based off of Mohd Nazmus Saquib's [blog](https://mohdsaquib.hashnode.dev/event-driven-covid-19-data-etl-process-acloudguruchallenge))
 
-This project is from Forrest Brazeal's A Cloud Guru Challenge on automating a Covid 19 ETL pipeline. In building this I used the Serverless Framework, which was an extremely useful resource to build event-driven applications. I found it much better than AWS SAM.
+This project is from Forrest Brazeal's A Cloud Guru Challenge on automating a Covid 19 ETL pipeline. In building this I used the Serverless Framework, which was an extremely useful resource to build event-driven applications.  
+
+A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day at a fixed time. This endpoint would be a Lambda Function, which handles the ETL. API Calls are made to the New York Times and Johns Hopkins University COVID-19 Data API, which is returned as a CSV file. They are converted into Pandas DataFrames. Transformation then occurs, with the data being processed by removing nullification and joining the dataframes together. Subsequently the data is loaded into S3, which feeds into a Glue workflow (in between, checks are created to ensure that data is not lost if the ETL process fails. The user is also updated on the ETL progress through SNS). Glue automatically feeds into Athena. Using QuickSight, we import the Athena data, enabling it to be dashboarded. 
 
