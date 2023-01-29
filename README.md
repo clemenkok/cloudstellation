@@ -118,7 +118,7 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 << To be Added >>
 <br/><br/>
 ## <a name="10">Project X: Extracting buildings and roads from AWS Open Data using Amazon SageMaker</a>
-### SageMaker, AWS Open Data
+### SageMaker, AWS Open Data Repository 
 << To be Added >>
 <br/><br/>
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
