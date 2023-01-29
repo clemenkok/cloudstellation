@@ -117,9 +117,15 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 ### CodeBuild, CodeCommit, CodePipeline, Glue, S3, Athena
 << To be Added >>
 <br/><br/>
-## <a name="10">Project X: Extracting buildings and roads from AWS Open Data using Amazon SageMaker</a>
-### SageMaker, AWS Open Data Repository 
-<< To be Added >>
+## <a name="10">Project X: Power Demand Forecasting using DeepAR and SageMaker</a>
+### SageMaker Studio
+
+<img width="926" alt="Screenshot 2023-01-29 185701" src="https://user-images.githubusercontent.com/68755138/215350536-9f1dc7c8-bfbd-4ccc-882a-b24ad70794e4.png">
+
+In traditional time series modelling, classical methods such as autoregression are used to fit a single model for an individual time series. This model is then used to extrapolate into the future.  
+
+AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensional time series. The unique feature of DeepAR is that it is able to aggregate time series and generate forecasts for new time series similar to the ones that it has been trained on. For example, in the above graph, we forecast the consumption of an office - note the lower weekend consumption. Furthermore, DeepAR is able to handle missing values in time series during training as well as inference.  
+
 <br/><br/>
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
 ### Lex, Lambda, S3
