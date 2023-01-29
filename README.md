@@ -13,8 +13,18 @@
 Each project in Cloudstellation will include an architecture diagram (created with [draw.io](https://app.diagrams.net/)) and a quick overview of the steps needed to build out the architecture. Cloudstellation will contain projects ranging across the spectrum of applications, including networking, machine learning and serverless. 
 
 Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) Certification and was looking around for projects to further my practical skills before my internship, as well as to apply for research computing positions. Some of these projects could be useful as well for someone starting out in AWS, so I might as well document it.  
+
+[Project I: Cloud Resume Challenge](#1)
+[Project II: Video on Demand](#2)
+[Project III: Serverless Reminder Application](#3)
+[Project IV: Cat/Dog Recognition App](#4)
+[Project V: Docker-based Flask App with Aurora Serverless](#5)
+[Project VI: Web Scraper with Boto3 and SNS](#6)
+[Project VII: StockWatch](#7)
+[Project VIII: Covid 19 ETL](#8)
+
 <br/><br/>
-## Project I: Cloud Resume Challenge
+## <a name="1">Project I: Cloud Resume Challenge</a>
 ### S3, Route53, CloudFront, SAM, DynamoDB, Lambda, API Gateway
 ![cloudresume_one](https://user-images.githubusercontent.com/68755138/214983805-18d28316-e6b5-4f68-a438-2a2b65a1cb5f.png)
 
