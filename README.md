@@ -25,6 +25,7 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project IX: Build, Test and Deploy ETL solutions using AWS Glue and AWS CDK based CI/CD pipelines](#9)  
 [Project X: Extracting buildings and roads from AWS Open Data using Amazon SageMaker](#10)  
 [Project XI: Stock Market Analysis Pipeline](#10)  
+[Project XII: AWS EMR and Pyspark with Ubisoft Open Data](#11)  
 
 <br/><br/>
 ## <a name="1">Project I: Cloud Resume Challenge</a>
@@ -122,4 +123,7 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 <br/><br/>
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
 ### Lex, Lambda, S3
+<< To be Added >>
+## <a name="12">AWS EMR and Pyspark with Ubisoft Open Data</a>
+### EMR
 << To be Added >>
