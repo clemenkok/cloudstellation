@@ -23,6 +23,8 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project VII: StockWatch](#7)  
 [Project VIII: Covid 19 ETL](#8)  
 [Project IX: Build, Test and Deploy ETL solutions using AWS Glue and AWS CDK based CI/CD pipelines](#9)  
+[Project X: Extracting buildings and roads from AWS Open Data using Amazon SageMaker](#10)  
+[Project XI: Stock Market Analysis Pipeline](#10)  
 
 <br/><br/>
 ## <a name="1">Project I: Cloud Resume Challenge</a>
@@ -112,4 +114,12 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 <br/><br/>
 ## <a name="9">Project IX: Build, Test and Deploy ETL Solution with Glue and CDK-based CI/CD Pipelines</a>
 ### CodeBuild, CodeCommit, CodePipeline, Glue, S3, Athena
+<< To be Added >>
+<br/><br/>
+## <a name="10">Project X: Extracting buildings and roads from AWS Open Data using Amazon SageMaker</a>
+### SageMaker, AWS Open Data
+<< To be Added >>
+<br/><br/>
+## <a name="11">Project XI: Stock Market Analysis Pipeline</a>
+### Lex, Lambda, S3
 << To be Added >>
