@@ -93,4 +93,8 @@ What I learnt:
 <br/><br/>
 ## Project VIII: A Cloud Guru Challenge - Covid 19 ETL
 ### Serverless Framework, EventBridge, Lambda, DynamoDB, S3, SNS, Athena, QuickSight
-<< To be Added >>
+![covid drawio (1)](https://user-images.githubusercontent.com/68755138/215298522-7be255fc-c3b3-4893-8160-66ef8200be58.png)
+(Architecture Diagram based off of Mohd Nazmus Saquib's [blog](https://mohdsaquib.hashnode.dev/event-driven-covid-19-data-etl-process-acloudguruchallenge))
+
+This project is from Forrest Brazeal's A Cloud Guru Challenge on automating a Covid 19 ETL pipeline. In building this I used the Serverless Framework, which was an extremely useful resource to build event-driven applications. I found it much better than AWS SAM.
+
