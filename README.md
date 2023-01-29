@@ -124,7 +124,7 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 
 In traditional time series modelling, classical methods such as autoregression are used to fit a single model for an individual time series. This model is then used to extrapolate into the future.  
 
-AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensional time series. The unique feature of DeepAR is that it is able to aggregate time series and generate forecasts for new time series similar to the ones that it has been trained on. For example, in the above graph, we forecast the consumption of an office - note the lower weekend consumption. Furthermore, DeepAR is able to handle missing values in time series during training as well as inference.  
+AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensional time series. The unique feature of DeepAR is that it is able to aggregate time series and generate forecasts for new time series similar to the ones that it has been trained on. For this project, we forecast the consumption of an office - note the lower weekend consumption in the above graph. Furthermore, DeepAR is able to handle missing values in time series during training as well as inference.  
 
 <br/><br/>
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
