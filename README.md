@@ -22,6 +22,7 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project VI: Web Scraper with Boto3 and SNS](#6)  
 [Project VII: StockWatch](#7)  
 [Project VIII: Covid 19 ETL](#8)  
+[Project IX: Build, Test and Deploy ETL solutions using AWS Glue and AWS CDK based CI/CD pipelines](#9)  
 
 <br/><br/>
 ## <a name="1">Project I: Cloud Resume Challenge</a>
@@ -108,4 +109,7 @@ What I learnt:
 This project is from Forrest Brazeal's A Cloud Guru Challenge on automating a Covid 19 ETL pipeline. In building this I used the Serverless Framework, which was an extremely useful resource to build event-driven applications.  
 
 A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day at a fixed time. This endpoint would be a Lambda Function, which handles the ETL. API Calls are made to the New York Times and Johns Hopkins University COVID-19 Data API, which is returned as a CSV file. They are converted into Pandas DataFrames. Transformation then occurs, with the data being processed by removing nullification and joining the dataframes together. Subsequently the data is loaded into S3, which feeds into a Glue workflow (in between, checks are created to ensure that data is not lost if the ETL process fails. The user is also updated on the ETL progress through SNS). Glue automatically feeds into Athena. Using QuickSight, we import the Athena data, enabling it to be dashboarded. 
-
+<br/><br/>
+## <a name="9">Project IX: Build, Test and Deploy ETL Solution with Glue and CDK-based CI/CD Pipelines</a>
+### CodeBuild, CodeCommit, CodePipeline, Glue, S3, Athena
+<< To be Added >>
