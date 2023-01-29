@@ -48,7 +48,7 @@ The challenge can be broken down into multiple stages.
 > Stage 4: Infrastructure as Code and CI/CD
 > Skills: Terraform, GitHub Actions, cloud secrets management  
 
-Using this challenge as a guide, I created my own [website](clemenkok.com) where I wrote about my portfolio and past experiences.  
+Using this challenge as a guide, I created my own [website](http://clemenkok.com) where I wrote about my portfolio and past experiences.  
 
 Some key things that I learnt while building this project:  
 
