@@ -124,6 +124,6 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
 ### Lex, Lambda, S3
 << To be Added >>
-## <a name="12">AWS EMR and Pyspark with Ubisoft Open Data</a>
+## <a name="12">Project XII: AWS EMR and Pyspark with Ubisoft Open Data</a>
 ### EMR
 << To be Added >>
