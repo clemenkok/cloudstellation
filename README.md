@@ -130,6 +130,7 @@ AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensio
 ## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
 ### Lex, Lambda, S3
 << To be Added >>
+<br/><br/>
 ## <a name="12">Project XII: AWS EMR and Pyspark with Ubisoft Open Data</a>
 ### EMR
 << To be Added >>
