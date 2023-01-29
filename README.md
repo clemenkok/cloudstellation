@@ -120,6 +120,6 @@ A ```cron``` job was scheduled on EventBridge to trigger an endpoint every day a
 ### SageMaker, AWS Open Data
 << To be Added >>
 <br/><br/>
-## <a name="11">Project XI: Stock Market Analysis Pipeline</a>
+## <a name="11">Project XI: Stock Market Pipeline and Forecasting with LSTM</a>
 ### Lex, Lambda, S3
 << To be Added >>
