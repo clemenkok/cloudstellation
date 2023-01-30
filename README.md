@@ -24,9 +24,10 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project VIII: Covid 19 ETL](#8)  
 [Project IX: Build, Test and Deploy ETL solutions using AWS Glue and AWS CDK based CI/CD pipelines](#9)  
 [Project X: Power Demand Forecasting using DeepAR and SageMaker](#10)  
-[Project XI: Stock Market Analysis Pipeline](#10)  
-[Project XII: AWS EMR and Pyspark with Ubisoft Open Data](#11)  
-[Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform](#12)
+[Project XI: Stock Market Analysis Pipeline](#11)  
+[Project XII: AWS EMR and Pyspark with Ubisoft Open Data](#12)  
+[Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform](#13)
+[Project XIV: Architecture Map for Hydrology Sensor IoT Network Research Project](#14)
 
 <br/><br/>
 ## <a name="1">Project I: Cloud Resume Challenge</a>
@@ -143,3 +144,12 @@ AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensio
 The objective of this project was to use Terraform to describe a simple Auto-Scaling Group and Application Load Balancer architecture. The web servers hosted in EC2 would echo ```hello world``` when a HTTP request is made.
 
 This infrastructure was written in Terraform. I found Terraform to very developer-friendly, with the ease of seeing changes in your infrastructure as well as the ease of removal through ```terraform destroy```. I decided to stick to using Terraform from now on when describing infrastructure. The only thing was figuring out how to deal with roles and IAM.  
+<br/><br/>
+## <a name="14">Project XIV: Architecture Map for Hydrology Sensor IoT Network Research Project</a>
+### IoT Core, IoT Analytics, SNS, QuickSight, SageMaker, SES, Kinesis Data Stream, Kinesis Firehose, S3, Kinesis Data Analytics, Lambda
+
+![iot2 drawio (1)](https://user-images.githubusercontent.com/68755138/215603471-0f6292c2-f331-4632-9830-8d53d9b818a3.png)
+
+
+
+
