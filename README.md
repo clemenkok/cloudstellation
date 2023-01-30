@@ -26,6 +26,7 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project X: Power Demand Forecasting using DeepAR and SageMaker](#10)  
 [Project XI: Stock Market Analysis Pipeline](#10)  
 [Project XII: AWS EMR and Pyspark with Ubisoft Open Data](#11)  
+[Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform](#12)
 
 <br/><br/>
 ## <a name="1">Project I: Cloud Resume Challenge</a>
@@ -133,4 +134,7 @@ AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensio
 <br/><br/>
 ## <a name="12">Project XII: AWS EMR and Pyspark with Ubisoft Open Data</a>
 ### EMR
+<< To be Added >>
+## <a name="13">Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform</a>
+### ELB, EC2
 << To be Added >>
