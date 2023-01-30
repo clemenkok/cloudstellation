@@ -26,7 +26,7 @@ Why did I do this? I had completed the Solutions Architect Associate (SAA-C03) C
 [Project X: Power Demand Forecasting using DeepAR and SageMaker](#10)  
 [Project XI: Stock Market Analysis Pipeline](#11)  
 [Project XII: AWS EMR and Pyspark with Ubisoft Open Data](#12)  
-[Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform](#13)
+[Project XIII: Load Balancer and Web Server Cluster Deployment with Terraform](#13)  
 [Project XIV: Architecture Map for Hydrology Sensor IoT Network Research Project](#14)
 
 <br/><br/>
