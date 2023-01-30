@@ -140,4 +140,6 @@ AWS DeepAR is a forecasting algorithm that uses RNNs for forecasting onedimensio
 ### ELB, EC2
 ![aalb drawio (1)](https://user-images.githubusercontent.com/68755138/215382199-87206117-324e-43aa-bdd9-74568f9ec8fb.png)
 
+The objective of this project was to use Terraform to describe a simple Auto-Scaling Group and Application Load Balancer architecture. The web servers hosted in EC2 would echo ```hello world``` when a HTTP request is made.
+
 This infrastructure was written in Terraform. I found Terraform to very developer-friendly, with the ease of seeing changes in your infrastructure as well as the ease of removal through ```terraform destroy```. I decided to stick to using Terraform from now on when describing infrastructure. The only thing was figuring out how to deal with roles and IAM.  
